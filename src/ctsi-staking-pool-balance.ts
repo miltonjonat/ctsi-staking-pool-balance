@@ -1,9 +1,9 @@
-import { Block, Hex, PublicClient, formatUnits, parseAbi } from "viem";
+import { Block, Address, PublicClient, formatUnits, parseAbi } from "viem";
 
 export class CtsiStakingPoolBalance {
   constructor(
-    private pool: Hex,
-    private account: Hex,
+    private pool: Address,
+    private account: Address,
     private publicClient: PublicClient
   ) {}
 
