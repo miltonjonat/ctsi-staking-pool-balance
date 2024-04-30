@@ -1,6 +1,6 @@
 # ctsi-staking-pool-balance
 
-CLI to compute the balance in CTSI that a user has in a given staking pool contract
+CLI to compute a user's balance in a Cartesi staking pool contract, at any given time
 
 ## Running
 
